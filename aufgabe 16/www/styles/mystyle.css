@@ -5,12 +5,12 @@ h1 {
   text-transform: uppercase;
   text-decoration: underline;
   font-family: "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "courier";
 }
 .button {
   background-color: #2E8B57;
-  border: solid;
+  border: inset;
   border-color: black; 
   color: black;
   padding: 15px 32px;
@@ -25,7 +25,7 @@ h1 {
 h4 {
   text-align: center;
   background-color: #40E0D0;
-  border-style: solid;
+  border-style: double;
   margin-left: 50px;
   margin-right: 50px;
   font-family: "courier";
@@ -35,7 +35,7 @@ p {
   border-style: solid;
   border-width: medium;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "courier";
 }
 #div3 {
@@ -53,7 +53,7 @@ p {
   margin-right: 15%;
   background-color: #778899;
   font-family: "courier";
-  font-size: 33px;
+  font-size: 28px;
 }
 .wrapper {
   text-align: center;
@@ -63,7 +63,7 @@ p {
 #qEingeben {
   text-align: center;
   margin-bottom: 20px;
-  border-style: solid;
+  border-style: inset;
   border-width: 3px;
   font-size: 15px;
   font-family: "courier";
@@ -75,8 +75,7 @@ p {
 }
 #cancelButton {
   background-color: #2E8B57;
-  border: solid;
-  border-color: black; 
+  border: inset; 
   color: black;
   padding: 15px 32px;
   text-align: center;
