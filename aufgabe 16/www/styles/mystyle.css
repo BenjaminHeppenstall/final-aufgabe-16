@@ -48,7 +48,7 @@ p {
   margin-right: 15%;
   background-color: #778899;
   font-family: "courier";
-  font-size: 40px;
+  font-size: 33px;
 }
 .wrapper {
   text-align: center;
@@ -113,6 +113,6 @@ p {
 #attentionImage {
   margin-top: 20px;
   margin-bottom: 0px;
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: 30%;
 }
