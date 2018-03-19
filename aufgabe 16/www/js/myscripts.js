@@ -61,7 +61,7 @@ function everything() {
                 var button = document.createElement("button");                      
                 button.id = "cancelButton";
                 button.class = "button"                                                               
-                button.innerHTML = "erneut versuchen";                                     
+                button.innerHTML = "<b>erneut versuchen</b>";                                     
                 var parentEl = document.getElementById("fillIn");                
                 parentEl.appendChild(button);                                   
 

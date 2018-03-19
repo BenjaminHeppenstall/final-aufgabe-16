@@ -11,6 +11,7 @@ h1 {
 .button {
   background-color: #2E8B57;
   border: inset; 
+  border-color: #2E8B57;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -48,6 +49,7 @@ p {
 #demo1 {
   text-align: center;
   border-style: inset;
+
   margin-left: 15%;
   margin-right: 15%;
   background-color: #778899;
@@ -74,7 +76,8 @@ p {
 }
 #cancelButton {
   background-color: #2E8B57;
-  border: groove; 
+  border: inset;
+  border-color: #2E8B57;
   color: black;
   padding: 15px 32px;
   text-align: center;
