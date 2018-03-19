@@ -1,5 +1,6 @@
 h1 {
   background-color: #008080;
+  margin-top: 0px;
   border-style: solid;
   text-align: center;
   text-transform: uppercase;
@@ -128,4 +129,28 @@ p {
   margin-bottom: 0px;
   width: 30%;
   height: 30%;
+}
+#codeDiv {
+  text-align: right;
+}
+#codePageButton {
+  background-color: #B8860B;
+  color: black;
+  border-style: inset;
+  border-color: #B8860B;
+  color: black;
+  padding: 3px 10px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin:4px 2px;
+  cursor: pointer;
+  font-family: "courier";
+}
+#iconImg {
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
