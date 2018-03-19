@@ -10,8 +10,7 @@ h1 {
 }
 .button {
   background-color: #2E8B57;
-  border: inset;
-  border-color: black; 
+  border: inset; 
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -75,7 +74,7 @@ p {
 }
 #cancelButton {
   background-color: #2E8B57;
-  border: inset; 
+  border: groove; 
   color: black;
   padding: 15px 32px;
   text-align: center;
