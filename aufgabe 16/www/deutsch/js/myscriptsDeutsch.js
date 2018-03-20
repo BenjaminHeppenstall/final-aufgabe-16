@@ -41,7 +41,7 @@ function everything() {
 
                 document.getElementById("max").innerHTML = "<br>" + "Größtmöglicher Flächeninhalt bei " + a + "cm:" + "<br>" + "<b>" + "<br>" + 
                 Math.round(maxNummern * 1000) / 1000 + " cm²" + "</b>" + "<br>" + "<br>";
-                document.getElementById("all").innerHTML = "<br>" + "Andere Punkte auf der Parabel:" + "<br>" + "<br>" + forAll;
+                document.getElementById("all").innerHTML = "<br>" + "Andere mögliche Flächeninhalte:" + "<br>" + "<br>" + forAll;
 
                 var elem = document.getElementById('qEingeben');               
                 elem.parentNode.removeChild(elem);                  

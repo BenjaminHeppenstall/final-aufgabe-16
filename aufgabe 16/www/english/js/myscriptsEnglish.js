@@ -40,7 +40,7 @@
                 document.getElementById("max").innerHTML = "<br>" + "biggest possible area for " 
                 + a + "cm:" + "<br>" + "<b>" + "<br>" + 
                 Math.round(maxNummern * 1000) / 1000 + " cm²" + "</b>" + "<br>" + "<br>";
-                document.getElementById("all").innerHTML = "<br>" + "other points on the parabola:" 
+                document.getElementById("all").innerHTML = "<br>" + "other possible area values:" 
                 + "<br>" + "<br>" + forAll;
 
                 var elem = document.getElementById('qEingeben');               
