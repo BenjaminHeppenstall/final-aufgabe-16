@@ -1,16 +1,6 @@
-//once button is pressed: 
 function everything() {
-    //create variable to store user input 
     var answerInput = prompt("bitte q eingeben", "8");
 
-    if (document.getElementById("demo1")) {
-        document.getElementById('demo1').style.display='none';
-        document.getElementById('attentionImage').style.display='none';
-    } 
-
-
-
-    //if user doesnt press cancel do:
     if (answerInput != null) {
 
         var a = parseInt(answerInput, 10);                               
@@ -20,8 +10,6 @@ function everything() {
 
         function isItNumber(h) {
             if (Number.isInteger(h)) { 
-                
-
 
                 function f(q,x) {
                     var y = (30 - (-(q/10) * x + q)) * (40 - x);                 
@@ -68,7 +56,7 @@ function everything() {
                 button.addEventListener ("click", function() {                  
                     location.reload(false);  
                 });                                    
-            } else {
+            } else {  
 
                 var div = document.createElement("div");
                 div.id = "attentionDiv";
@@ -80,22 +68,7 @@ function everything() {
                 myImg.setAttribute("alt", "attention");
                 myImg.id = "attentionImage";
                 var element4 = document.getElementById("attentionDiv")
-                element4.appendChild(myImg); 
-            
-                //div.innerHTML = "Bitte eine <i>gültige</i> Nummer eingeben  ";
-
-                //document.getElementById("allNum").appendChild(div);
-
-                /*var myImg = document.createElement("IMG");
-                myImg.src = "images/attention.png";
-                myImg.setAttribute("width", "120");
-                myImg.setAttribute("height", "88");
-                myImg.setAttribute("alt", "attention");
-                myImg.id = "attentionImage";
-                var element4 = document.getElementById("attentionDiv")
-                element4.appendChild(myImg); */
-
-                
+                element4.appendChild(myImg);
 
                 var invalidInput = document.createElement("p");                  
                 invalidInput.id = "demo1";                                         
@@ -106,6 +79,20 @@ function everything() {
                 
 
                 document.getElementById("demo1").innerHTML = "Bitte eine <i>gültige</i> Nummer eingeben" 
+
+                var elem1 = document.getElementById('qEingeben');               
+                elem1.parentNode.removeChild(elem1); 
+
+                var button = document.createElement("button");                      
+                button.id = "cancelButton";
+                button.class = "button"                                                               
+                button.innerHTML = "<b>erneut versuchen</b>";                                     
+                var parentEl = document.getElementById("fillIn");                
+                parentEl.appendChild(button);                                   
+
+                button.addEventListener ("click", function() {                  
+                    location.reload(false);
+                });
             }
         }
 

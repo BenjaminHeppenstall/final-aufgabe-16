@@ -1,0 +1,44 @@
+div.programmed {
+  background-color: #696969;
+  border: inset; 
+  border-color: #696969;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "courier";
+} 
+#programmedContent {
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  font-style: serif;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-left: 100px;
+} 
+
+div.index {
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+div.indexContainer {
+  font-size: 10px;
+  font-style: serif;
+  padding: 5px;
+}
+.programmedBy {
+  font-size: 10px;
+  font-style: serif;
+  color: white;
+}
